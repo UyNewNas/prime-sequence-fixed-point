@@ -1,0 +1,14 @@
+name = "PrimeSequenceFixedPoint"
+version = "0.1.0"
+defaultTargets = ["PrimeSequenceFixedPoint"]
+
+[leanOptions]
+pp.unicode.fun = true
+autoImplicit = false
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+
+[[lean_lib]]
+name = "PrimeSequenceFixedPoint"
